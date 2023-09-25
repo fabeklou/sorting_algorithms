@@ -11,7 +11,7 @@
  */
 void bubble_sort(int *array, size_t size)
 {
-	int i, j;
+	size_t i, j;
 	bool is_ordered;
 
 	if (array == NULL || size < 2)
@@ -26,7 +26,7 @@ void bubble_sort(int *array, size_t size)
 			{
 				swaper(&array[j], &array[j + 1]);
 				is_ordered = false;
-				printf(array, size);
+				print_array(array, size);
 			}
 		}
 		if (is_ordered)
