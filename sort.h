@@ -25,7 +25,4 @@ void print_list(const listint_t *list);
 /* sorting functions */
 void bubble_sort(int *array, size_t size);
 
-/* utils */
-void swaper(int *value_a, int *value_b);
-
 #endif /* end of SORT_H */
